@@ -1,41 +1,74 @@
-# Portfolio Jekyll Theme
+# Particle Jekyll Theme
 
-This is a portfolio Jekyll theme built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P).
+![](./particle.jpg)
 
-![alt-text](https://cloud.githubusercontent.com/assets/8409329/26227987/f2583642-3c03-11e7-81c4-28a9353c91ae.jpg)
+This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
-#### Quick-Start Guide
+The Theme features:
 
-To start using this theme right away, [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork). From there, you can rename the repository to `USERNAME.github.io`, where `USERNAME` is your GitHub username, and edit the `_config.yml` and `_settings.yml` file (in the `_data folder`) to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at `http://USERNAME.github.io`.
+- Gulp
+- SASS
+- Sweet Scroll
+- Particle.js
+- BrowserSync
+- Font Awesome and Devicon icons
+- Google Analytics
+- Info Customization
 
-Head over to the `_posts` directory to view all the blog posts that are currently on the website, and to see examples of what post files generally look like. Project content is added in the `projects` folder.  You can simply just duplicate the template posts and start adding your own content.
+## Basic Setup
 
-#### Full Installation Guide
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
+3. Clone the repo you just forked.
+4. Edit `_config.yml` to personalize your site.
 
-For a full local installation of this theme, [download your own copy of the Portfolio Jekyll Theme](https://github.com/LeNPaul/portfolio-jekyll-theme/archive/gh-pages.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, and enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
+## Site and User Settings
 
-#### Posts
+You have to fill some informations on `_config.yml` to customize your site.
 
-You will find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+```
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3000" # the base hostname & protocol for your site
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts.
+# User settings
+username: Lorem Ipsum
+user_description: Anon Developer at Lorem Ipsum Dolor
+user_title: Anon Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+```
 
-#### Configuration
+**Don't forget to change your url before you deploy your site!**
 
-To change site build settings, edit the `_config.yml` file found in the root of your repository. The `_settings.yml` file found in the `_data` folder is where you can configure and change the site content.
+## Color and Particle Customization
+- Color Customization
+  - Edit the sass variables
+- Particle Customization
+  - Edit the json data in particle function in app.js
+  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
 
-If you are hosting your site on GitHub Pages, then committing a change to the `_config.yml` file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run `jekyll serve` again for the changes to take place.
+## Running the blog in local
 
-In the `_settings.yml` file, you'll be able to change the title of your site along with any tagline you want, which shows up in the site header, as well as the description of your site for SEO purposes. You can also change the social media information, and add your own social media icons.
+In order to compile the assets and run Jekyll on local you need to follow those steps:
 
-#### Everything Else
+- Install [NodeJS](https://nodejs.org/)
+- Run `npm install`
+- Run `gulp`
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## Questions
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
 
-#### Questions?
+## License
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/portfolio-jekyll-theme/issues/new).
+This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+
+## Credits
+
+This theme was partially designed with the inspiration from these fine folks
+- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
+- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)
