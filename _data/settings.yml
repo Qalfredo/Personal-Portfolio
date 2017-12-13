@@ -2,8 +2,8 @@
 # General Site Settings
 
 title: Alfredo Quintana
-description: Powered by Jekyll and GitHub Pages
-email: l.nguyen.paul@gmail.com
+description: Personal Portfolio Powered by Jekyll and GitHub Pages
+email: alfredo.quintana.14@gmail.com
 
 menu:
 - {name: 'Projects', url: ''}
@@ -17,7 +17,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
+  description: 'Alfredo Quintana Data science portfolio'
   rel-author: 'https://plus.google.com/u/0/#'
   rel-publisher: 'https://plus.google.com/u/0/#'
 
@@ -35,14 +35,14 @@ seo:
 # About Section
 
 about: >
-  # Portfolio Jekyll Theme
+  # Hello there,
 
-  This is a personal portfolio theme that I built from the ground up, using the [DevTips Starter Kit](http://devtipsstarterkit.com/) as a foundation for starting, and following closely the amazing tutorial by [Travis Neilson over at DevTips](https://www.youtube.com/watch?v=T6jKLsxbFg4&list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P). You can [check out the demo](lenpaul.github.io/portfolio-jekyll-theme/), and [fork the repository](https://github.com/LeNPaul/portfolio-jekyll-theme/fork), to get started.
+  I'm a Mathematician from Universidad Central de Venezuela and entry level Data Scientist. Wide domain in statistics and modelling, Machine Learning, Data Mining, Data Analysis, Big data, R and Python for Data Science. Finding the link between Math and real life problems is what I do as a Mathematician, as a Data Scientist I develop smart solutions to find patterns and earn valuable knowledge from Data.
 
 contact: >
   # Contact
 
-  You may contact me [through my email](mailto:l.nguyen.paul@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40paululele) if you have any questions or would like to bring up any issues.
+  You may contact me [through my email](mailto:alfredo.quintana.14@gmail.com) or [tweet at me](https://twitter.com/intent/tweet?text=%40alfredoq14) if you have any questions or would like to bring up any issues.
 
 #-------------------------------
 # Work Section
